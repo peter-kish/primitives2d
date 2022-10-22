@@ -34,8 +34,7 @@ Draws a 2D rectangle.
 #### Properties
 
 * `color: Color` - The color of the rectangle.
-* `width: float` - The width of the rectangle.
-* `height: float` - The height of the rectangle.
+* `size: Vector2` - The size of the rectangle.
 * `filled: bool` - If `false`, the rectangle will be drawn as a stroke with the `color` and `line_width` specified.
 * `line_width: float` - Width of the stroke (in case `filled` is `true`).
 * `antialiased: bool` - If `true`, the lines will attempt to perform antialiasing using OpenGL line smoothing.
