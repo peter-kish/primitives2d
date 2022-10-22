@@ -33,7 +33,8 @@ _global_script_class_icons={
 [application]
 
 config/name="Primitives2D"
-config/icon="res://icon.png"
+run/main_scene="res://test/primitives2d_test.tscn"
+config/icon="res://images/logo.svg"
 
 [editor_plugins]
 
