@@ -3,8 +3,7 @@ class_name Rectangle2D
 tool
 
 export(Color) var color = Color(1.0, 1.0, 1.0) setget _set_color
-export(float) var width = 10 setget _set_width
-export(float) var height = 10 setget _set_height
+export(Vector2) var size = Vector2(10, 10) setget _set_size
 export(bool) var filled = false setget _set_filled
 export(float) var line_width = 1.0 setget _set_line_width
 export(bool) var antialiased = false setget _set_antialiased
@@ -16,13 +15,8 @@ func _set_color(new_color: Color) -> void:
     update()
 
 
-func _set_width(new_width: float) -> void:
-    width = new_width
-    update()
-
-
-func _set_height(new_height: float) -> void:
-    height = new_height
+func _set_size(new_size: Vector2) -> void:
+    size = new_size
     update()
 
 
@@ -47,7 +41,7 @@ func _set_centered(new_centered: bool) -> void:
 
 
 func _draw() -> void:
-    var rect = Rect2(Vector2.ZERO, Vector2(width, height))
+    var rect = Rect2(Vector2.ZERO, size)
     if centered:
         rect.position -= rect.size / 2
     draw_rect(rect, color, filled, line_width, antialiased)

@@ -9,14 +9,12 @@
 [node name="Rectangle2D" type="Node2D" parent="."]
 position = Vector2( 112, 48 )
 script = ExtResource( 1 )
-width = 100.0
-height = 100.0
+size = Vector2( 100, 100 )
 
 [node name="Rectangle2D2" type="Node2D" parent="."]
 position = Vector2( 377, 50 )
 script = ExtResource( 1 )
-width = 100.0
-height = 100.0
+size = Vector2( 100, 100 )
 filled = true
 
 [node name="Circle2D" type="Node2D" parent="."]
