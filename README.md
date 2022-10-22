@@ -1,5 +1,9 @@
 # Primitives2D
 
+<p align="center">
+  <img src="images/logo.svg" width="128" height="128"/>
+</p>
+
 A plugin for the Godot game engine (version 3.x) for rendering primitive 2d shapes.
 
 ![](images/ss_editor.png "Primitives2D")
