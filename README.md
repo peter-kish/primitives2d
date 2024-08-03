@@ -4,7 +4,7 @@
   <img src="images/logo.svg" width="128" height="128"/>
 </p>
 
-A plugin for the Godot game engine (version 3.x) for rendering primitive 2d shapes.
+A plugin for the Godot game engine (version 4.x) for rendering primitive 2d shapes.
 
 ![](images/ss_editor.png "Primitives2D")
 
@@ -37,7 +37,6 @@ Draws a 2D rectangle.
 * `size: Vector2` - The size of the rectangle.
 * `filled: bool` - If `false`, the rectangle will be drawn as a stroke with the `color` and `line_width` specified.
 * `line_width: float` - Width of the stroke (in case `filled` is `true`).
-* `antialiased: bool` - If `true`, the lines will attempt to perform antialiasing using OpenGL line smoothing.
 * `centered: bool` - If `true`, the rectangle will be drawn centered.
 
 ### Circle2D
