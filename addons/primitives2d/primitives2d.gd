@@ -12,4 +12,3 @@ func _exit_tree():
     remove_custom_type("Rectangle2D")
     remove_custom_type("Circle2D")
     remove_custom_type("Arc2D")
-

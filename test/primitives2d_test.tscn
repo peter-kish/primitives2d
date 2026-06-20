@@ -1,35 +1,35 @@
-[gd_scene load_steps=4 format=3 uid="uid://4lhb5b6o3le8"]
+[gd_scene format=3 uid="uid://4lhb5b6o3le8"]
 
-[ext_resource type="Script" path="res://addons/primitives2d/rectangle2d.gd" id="1"]
-[ext_resource type="Script" path="res://addons/primitives2d/circle2d.gd" id="2"]
-[ext_resource type="Script" path="res://addons/primitives2d/arc2d.gd" id="3"]
+[ext_resource type="Script" uid="uid://rgym63il5na3" path="res://addons/primitives2d/rectangle2d.gd" id="1"]
+[ext_resource type="Script" uid="uid://janx81rynq1p" path="res://addons/primitives2d/circle2d.gd" id="2"]
+[ext_resource type="Script" uid="uid://d0khfo6k52x20" path="res://addons/primitives2d/arc2d.gd" id="3"]
 
-[node name="Test" type="Node2D"]
+[node name="Test" type="Node2D" unique_id=1352315030]
 
-[node name="Rectangle2D" type="Node2D" parent="."]
+[node name="Rectangle2D" type="Node2D" parent="." unique_id=1513991567]
 position = Vector2(112, 48)
 script = ExtResource("1")
 size = Vector2(100, 100)
 filled = false
 
-[node name="Rectangle2D2" type="Node2D" parent="."]
+[node name="Rectangle2D2" type="Node2D" parent="." unique_id=1164747977]
 position = Vector2(377, 50)
 script = ExtResource("1")
 size = Vector2(100, 100)
 
-[node name="Circle2D" type="Node2D" parent="."]
+[node name="Circle2D" type="Node2D" parent="." unique_id=1252606699]
 position = Vector2(157, 309)
 script = ExtResource("2")
 radius = 100.0
 detail = 64
 
-[node name="Circle2D2" type="Node2D" parent="."]
+[node name="Circle2D2" type="Node2D" parent="." unique_id=2133900438]
 position = Vector2(374, 309)
 script = ExtResource("2")
 radius = 100.0
 filled = true
 
-[node name="Arc2D" type="Node2D" parent="."]
+[node name="Arc2D" type="Node2D" parent="." unique_id=971292689]
 position = Vector2(662, 306)
 script = ExtResource("3")
 radius = 100.0
